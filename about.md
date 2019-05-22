@@ -5,8 +5,6 @@ menu: true
 order: 10
 ---
 
-## 소개
-
 # 김문성(Kim munseong)
 매일 새로운 것을 배우고 성장하려고 합니다.
 
