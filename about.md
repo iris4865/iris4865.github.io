@@ -43,7 +43,7 @@ WET코드보다 DRY코드를 좋아합니다.
 ### Company
 ---
 #### MireroSystem
-[![login](https://github.com/iris4865/resume/blob/master/images/mls/MLS_Login.jpg)](#)
+[![login](https://github.com/iris4865/iris4865.github.io/blob/master/assets/img/MLS_Login.jpg)]
 - 소개: 미래로 딥러닝 솔루션
 - 기간: 2018. 10 ~ 2019. 03
 - 역할: 클리이언트 딥러닝 학습UI 설계, 학습 서비스 설계 및 개발
@@ -53,7 +53,7 @@ WET코드보다 DRY코드를 좋아합니다.
 ### Personal
 ---
 #### Totolist
-![view](https://github.com/iris4865/resume/blob/master/images/todolist/todolist.jpg)
+![view](https://github.com/iris4865/iris4865.github.io/blob/master/assets/img/todolist_overview.jpg)
 - 기간: 2019. 05. 16 ~ 2019. 05. 20
 - 개발 언어: Javascript, Python
 - 주요 라이브러리
