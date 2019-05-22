@@ -40,17 +40,17 @@ WET코드보다 DRY코드를 좋아합니다.
 #### MireroSystem
 - 소개: 미래로 딥러닝 솔루션
 - 기간: 2018. 10 ~ 2019. 03
-- 역할: 클리이언트 딥러닝 학습UI 설계, 학습 서비스 설계 및 개발
-- 개발 언어: C#, WPF
-- 주요 라이브리러: [Akka.net](https://github.com/akkadotnet/akka.net), [Dapper](https://github.com/StackExchange/Dapper), [OpenCvSharp](https://github.com/shimat/opencvsharp)
+- 역할: 클리이언트 딥러닝 학습UI 설계, 학습 서비스 설계 및 개발, 학습 서비스(C#)에서 Python코드 호출 및 실행
+- 개발 언어: C#, WPF, Python
+- 주요 라이브리러: [Akka.net](https://github.com/akkadotnet/akka.net), [PythonNET](https://github.com/pythonnet/pythonnet), [Dapper](https://github.com/StackExchange/Dapper), [OpenCvSharp](https://github.com/shimat/opencvsharp)
 - 학습 프레임워크: NvCaffe, DigitsCaffe, Tensorflow, Keras, PyTorch
+
 ### Personal
 ---
 #### Totolist
 - 기간: 2019. 05. 16 ~ 2019. 05. 20
 - 개발 언어: Javascript, Python
-- 주요 라이브러리
-  - [Vue.js](https://github.com/vuejs/vue), [BootstrapVue](https://github.com/bootstrap-vue/bootstrap-vue), [Flask](https://github.com/pallets/flask/), [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy/)
+- 주요 라이브러리: [Vue.js](https://github.com/vuejs/vue), [BootstrapVue](https://github.com/bootstrap-vue/bootstrap-vue), [Flask](https://github.com/pallets/flask/), [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy/)
 - 학습
   - Front-End와 Back-End의 차이와 개발방법
   - nginx - vue - flask연결
