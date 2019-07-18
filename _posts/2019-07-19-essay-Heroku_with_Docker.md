@@ -8,7 +8,7 @@ tags: Docker, Heroku
 
 # Heroku란?
 Heroku는 AWS위에서 만들어진 Cloud Service다.  
-AWS, GCP, Azure와 차이는 Heroku는 PaaS(Platform as a Service)서비스만 지원한다는 점이다.
+AWS, GCP, Azure와 차이는 Heroku는 PaaS(Platform as a Service)만 지원한다는 점이다.
 
 ## Docker Image를 Heroku 배포하는 방법
 ### Heroku 가입 및 설치
@@ -45,7 +45,7 @@ Toy Project를 배포한거라 확실치는 않지만 서버를 관리할 필요
 기존에 만든 Docker Image를 그대로 이용하여 새로 빌드할 필요가 없었다.  
   
 다음에 할 일
-  - AWS 배포
-  - CI/CD를 통한 배포 자동화
+    - AWS 배포
+    - CI/CD를 통한 배포 자동화
 
 CI/CD서버도 Docker를 통해 Cloud에 올리면 좋을 것 같다.
