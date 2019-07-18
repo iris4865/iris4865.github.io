@@ -22,10 +22,10 @@ AWS, GCP, Azure와 차이는 Heroku는 PaaS(Platform as a Service)서비스만 �
 
 ### Heroku 배포를 위한 Docker Image 준비
 - Docker Image의 tag변경
-  - docker tag <image> registry.heroku.com/<app>/<process-type>
-    - <image>: Docker Image 이름
-    - <app>: Create a new app에서 생성한 App name
-    - <process-type>: 프로세스 유형 선택
+  - docker tag \<image> registry.heroku.com/\<app>/\<process-type>
+    - \<image>: Docker Image 이름
+    - \<app>: Create a new app에서 생성한 App name
+    - \<process-type>: 프로세스 유형 선택
       - web(유일하게 외부에서 HTTP를 수신), worker, urgentworker, clock
       - [Procfile format](https://devcenter.heroku.com/articles/procfile#procfile-format)
 
@@ -35,9 +35,9 @@ AWS, GCP, Azure와 차이는 Heroku는 PaaS(Platform as a Service)서비스만 �
 2. Container 접속
   - heroku container:login
 3. Docker Image 업로드
-  - docker push registry.heroku.com/<app>/<process-type>
+  - docker push registry.heroku.com/\<app>/\<process-type>
 4. 배포
-  - heroku container:release --app <app> <process-type>
+  - heroku container:release --app \<app> \<process-type>
 5. 웹 사이트에서 확인(Open app)
 
 ## 후기
