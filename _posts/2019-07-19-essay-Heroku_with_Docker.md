@@ -41,9 +41,8 @@ AWS, GCP, Azure와 차이는 Heroku는 PaaS(Platform as a Service)만 지원한�
 처음으로 Cloud에 배포를 해봤다.  
 Toy Project를 배포한거라 확실치는 않지만 서버를 관리할 필요가 없다는건 확실해보였다.  
 기존에 만든 Docker Image를 그대로 이용하여 새로 빌드할 필요가 없었다.  
-  
-다음에 할 일  
-  - AWS 배포
-  - CI/CD를 통한 배포 자동화
-
 CI/CD서버도 Docker를 통해 Cloud에 올리면 좋을 것 같다.
+
+### 다음에 할 일
+- AWS 배포
+- CI/CD를 통한 배포 자동화
