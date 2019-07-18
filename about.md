@@ -76,12 +76,12 @@ WET코드보다 DRY코드를 좋아합니다.
   - HTML을 템플릿화하여 HTML 코드 재사용방법
   - Docker를 이용하여 Heroku에 배포
   - Github과 Docker Hub를 이용한 컨테이너자동빌드 구축
-Github
-- Docker: https://github.com/iris4865/todolist-dockerfile
-- Vue: https://github.com/iris4865/todolist-vue
-- Flask: https://github.com/iris4865/todolist-flask
-Docker Hub
-- https://hub.docker.com/r/iris4865/programmers-todo
+- Github
+  - Docker: https://github.com/iris4865/todolist-dockerfile
+  - Vue: https://github.com/iris4865/todolist-vue
+  - Flask: https://github.com/iris4865/todolist-flask
+- Docker Hub
+  - https://hub.docker.com/r/iris4865/programmers-todo
 
 
 ## Education
