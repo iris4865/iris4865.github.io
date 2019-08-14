@@ -52,8 +52,7 @@ JWT는 Access Token만 사용하는 방법과 Access Token, Refresh Token을 사
   flask_bcrypt = Bcrypt(app)
   ```
 
-3. 로그인 함수
-
+3. 로그인 함수  
 ```python
 @app.route('/login', methods=['POST'])
 def login():
