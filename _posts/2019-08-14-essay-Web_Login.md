@@ -52,7 +52,8 @@ app = Flask(__name__)
 
 jwt = JWTManager(app)
 flask_bcrypt = Bcrypt(app)
-```
+```  
+
 
 3. 로그인 함수  
 ```python
