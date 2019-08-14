@@ -42,6 +42,7 @@ JWT는 Access Token만 사용하는 방법과 Access Token, Refresh Token을 사
 
 2. Flask 초기화  
 Flask에 bcrypt와 JWTManager를 연결한다.  
+
 ```python
 from flask import Flask
 from flask_jwt_extended import JWTManager
