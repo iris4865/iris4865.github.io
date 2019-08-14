@@ -35,12 +35,12 @@ Claim Token이란 로그인한 사용자의 정보가 들어있는 Token을 뜻�
 JWT는 Access Token만 사용하는 방법과 Access Token, Refresh Token을 사용하는 방법이 있다.  
 아래는 Flask-JWT-Extended를 이용한 코드다.  
 
-1. 라이브러리 설치
-  - Flask==1.1.1
-  - Flask-Bcrypt==0.7.1
-  - Flask-JWT-Extended==3.21.0
+### 1. 라이브러리 설치
+- Flask==1.1.1
+- Flask-Bcrypt==0.7.1
+- Flask-JWT-Extended==3.21.0
 
-2. Flask 초기화  
+### 2. Flask 초기화  
 Flask에 bcrypt와 JWTManager를 연결한다.  
 
 ```python
@@ -55,7 +55,7 @@ flask_bcrypt = Bcrypt(app)
 ```  
 
 
-3. 로그인 함수
+### 3. 로그인 함수
 
 ```python
 @app.route('/login', methods=['POST'])
@@ -77,7 +77,7 @@ def login():
         return jsonify({'return': False, 'message': 'Bad request parameters'}), 400
 ```
 
-4. Token인증을 이용한 로직함수
+### 4. Token인증을 이용한 로직함수
 @jwt_required를 사용하여 Token유효성을 검사한다.
 
 ```python
@@ -91,7 +91,7 @@ def test_token():
     return jsonify({'return': True}), 200
 ```
 
-5. Token Refresh함수
+### 5. Token Refresh함수
 Access Token과 Refresh Token을 갱신하는 함수이다.
 
 ```python
@@ -113,7 +113,7 @@ def refresh(*args, **kwargs):
     return jsonify({'return': True, 'data': data}), 200
 ```
 
-6. 인증실패 
+### 6. 인증실패 
 JWT의 무결성이 깨지면 해당 함수를 호출한다.
 
 ```python
