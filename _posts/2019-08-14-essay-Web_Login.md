@@ -41,6 +41,7 @@ JWT는 Access Token만 사용하는 방법과 Access Token, Refresh Token을 사
   - Flask-JWT-Extended==3.21.0
 
 2. Flask 초기화
+
 ```python
 from flask import Flask
 from flask_jwt_extended import JWTManager
@@ -53,6 +54,7 @@ flask_bcrypt = Bcrypt(app)
 ```
 
 3. 로그인 함수
+
 ```python
 @app.route('/login', methods=['POST'])
 def login():
@@ -75,6 +77,7 @@ def login():
 
 4. Token인증을 이용한 로직함수
 @jwt_required를 사용하여 Token유효성을 검사한다.
+
 ```python
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
@@ -88,6 +91,7 @@ def test_token():
 
 5. Token Refresh함수
 Access Token과 Refresh Token을 갱신하는 함수이다.
+
 ```python
 @app.route('/refresh', methods=['POST'])
 @jwt_refresh_token_required
@@ -109,6 +113,7 @@ def refresh(*args, **kwargs):
 
 6. 인증실패 
 JWT의 무결성이 깨지면 해당 함수를 호출한다.
+
 ```python
 @jwt.unauthorized_loader
 def unauthorized_response(callback):
