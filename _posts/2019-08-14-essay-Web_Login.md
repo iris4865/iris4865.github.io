@@ -40,17 +40,18 @@ JWT는 Access Token만 사용하는 방법과 Access Token, Refresh Token을 사
   - Flask-Bcrypt==0.7.1
   - Flask-JWT-Extended==3.21.0
 
-2. Flask 초기화  
-  ```python
-  from flask import Flask
-  from flask_jwt_extended import JWTManager
-  from flask_bcrypt import Bcrypt
-  
-  app = Flask(__name__)
-  
-  jwt = JWTManager(app)
-  flask_bcrypt = Bcrypt(app)
-  ```
+2. Flask 초기화
+Flask에 bcrypt와 JWTManager를 연결한다.  
+```python
+from flask import Flask
+from flask_jwt_extended import JWTManager
+from flask_bcrypt import Bcrypt
+
+app = Flask(__name__)
+
+jwt = JWTManager(app)
+flask_bcrypt = Bcrypt(app)
+```
 
 3. 로그인 함수  
 ```python
