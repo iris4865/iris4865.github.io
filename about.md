@@ -22,23 +22,50 @@ WET코드보다 DRY코드를 좋아합니다.
 
 
 ## Skills
-- **Language**: C#, Python, Javascript
-- **Framework/Library**: Akka.NET, Flask, Vue
-- **Database**: Mysql, OracleDB
+- **Language**: C#, Scala, Python
+- **Framework/Library**: Akka.NET, Flask
+- **Database**: Mysql, OracleDB, Cassandra
 - **Tool / DevOps**: Github, Docker
 - **Environment**: Linux, Windows
 
 
 ## Experience
+- [Revol](https://revol.io/home)(2019. 09 ~ 2020. 03)
+  - 주니어 개발자(Scala, Python)
 - [Mirero System](http://www.mirero.co.kr/)(2017. 08 ~ 2019. 03)
   - 소프트웨어 개발자(C#, WPF)
-- [Huins](http://www.huins.com)(2016. 12 ~ 2017. 01)
-  - 인턴
 
 
 ## Projects
 ### Company
 ---
+#### Revol
+##### 주식매매 알고리즘 개발 및 유지보수
+- 설명: 도쿄증권거래소에서 퀀트 트레이딩 알고리즘 개발, 운영 및 유지보수
+- 기간: 2019. 12 ~ 2020. 03
+- 개발 언어: Scala, Python
+- 역할
+  - 책임자분에게 기존 알고리즘 요구사항에 맞춰 유지보수
+  - 새로운 알고리즘 개발
+  - Python을 이용하여 백테스트와 결과 데이터 README.md파일 작성 자동화
+
+##### 증권 옵션 증거금 계산 API
+- 설명: 옵션매매에 필요한 증거금 API 개발
+- 기간: 2019. 11 ~ 2019. 11
+- 인원: 1명
+- 개발 언어: Scala
+- 추가 설명
+  - KRX 거래소에서 만든 PC COMS를 참고하여 개발
+  - 증거금 계산 시 필요한 파라미터를 가죠오는 Crawler 개발
+
+##### 파일기반 DB 라이브러리
+- 설명: 트레이딩 중에 Database연결이 끊기는 경우 거래내역을 보관하기 위한 라이브러리
+- 기간: 2019. 10 ~ 2019. 10
+- 인원: 1명
+- 개발 언어: Scala
+- 추가 설명
+  - Table을 폴더로 하고 Primary Key는 파일명, Data는 파일 내부에 저장한다.
+
 #### MireroSystem
 ##### MLS(미래로 딥러닝 솔루션)
 - 설명: 이미지를 하나의 클라이언트에서 분류, 학습, 판정하는 솔루션
