@@ -19,6 +19,7 @@ tags: Diary mirero
 - OS: Windows
 - GUI: WPF, DevExpress
 - library: Akka.NET, HappyPath(확실하지 않다)
+
 인상적인건 중간에 가공하는 이미지들을 확인하기위해 FTP를 기반으로 만들어져 있었다.
 HappyPath는 사내 라이브러리인데 옛날에는 원리를 몰랐지만 지금 생각해보면 Tuple(java라면 Pair)을 직접만들고 Method Chaining을 이용하여 로직을 만들기 쉽게 하는 라이브러리이다.  
 초창기 C#일 때 필요해서 만든거라 내장된 Tuple과 Stream API를 이용하면 대체가 가능해 보인다.
@@ -73,6 +74,7 @@ Deep Learning을 이용하여 Model을 Trainig하고 이미지를 inference하�
 - OS: Windows, Linux/Ubuntu
 - GUI: WPF, DevExpress
 - library: Akka.NET(Cluster), Dapper, Python.NET, OpenCvSharp
+
 MLS에서는 Keras, PyTorch를 추가하였다. 또한 Akka.NET의 Cluster로 Load Balancing을 적용하여 throughput을 향상시켰다. (Round Robin)  
 더 뛰어난 Model이 나올 때마다 교체를 해야하는데 처음 의도는 Model을 Akka.NET을 이용한 Memcached Inference Service였다.  
 하지만 Akka.NET의 통신구조는 두 Actor System간의 채널이 하나만 존재한다. 이게 문제가 되는게 큰 Message를 전송하는 경우 다른 Message를 통신할 수 없다.  
