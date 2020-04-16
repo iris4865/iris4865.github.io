@@ -3,7 +3,7 @@ layout: post
 title:  "JWT(Json Web Token)"
 subtitle:   "Python에서 JWT사용하기"
 categories: essay
-tags: Python, Flask, JWT
+tags: Python Flask JWT
 ---
 
 # JWT란?

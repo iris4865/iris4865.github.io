@@ -3,7 +3,7 @@ layout: post
 title:  "기록은 집에서"
 subtitle:   "언제 나갈지 모른다"
 categories: essay
-tags: memories, company, revol
+tags: memories company revol
 ---
 
 ### 회사는 영원하지 않다.

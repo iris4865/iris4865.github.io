@@ -3,7 +3,7 @@ layout: post
 title:  "도커(Docker) 배포 - 헤로쿠(Heroku)"
 subtitle:   "Docker를 이용하여 배포하는 방법"
 categories: essay
-tags: Docker, Heroku
+tags: Docker Heroku
 ---
 
 # Heroku란?
