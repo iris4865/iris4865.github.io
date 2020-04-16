@@ -78,7 +78,7 @@ MLS에서는 Keras, PyTorch를 추가하였다. 또한 Akka.NET의 Cluster로 Lo
 하지만 Akka.NET의 통신구조는 두 Actor System간의 채널이 하나만 존재한다. 이게 문제가 되는게 큰 Message를 전송하는 경우 다른 Message를 통신할 수 없다.  
 다른 Message중 서로간의 통신이 유지되는지 확인하는 Gossip Message(Remote면 Heartbeat)를 받지 못해 서로 연결이 끊기는 아이러니한 상황에 처할 수 있다.  
 Akka.NET을 위주로 해결하기 위한 방법으로는 Aggregator Actor를 만들어 Message를 분할시켜 보내는 방식으로 하면 해결할 수 있다.  
-다만 이 방법은 따로 추가 개발을 해야하기 때문에 Memcached는 아니지만 대안인 DB, FTP, NAS중에서 NAS를 선택하여 문제를 해결하였다.
+다만 이 방법은 따로 추가 개발을 해야하기 때문에 Memcached는 아니지만 DB, FTP, NAS중에서 NAS를 선택하여 연결이 끊기는 문제를 해결할 수 있었다.
 
 
 ### 퇴사를 결심하다.
