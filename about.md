@@ -94,7 +94,7 @@ WET코드보다 DRY코드를 좋아합니다.
 
 ### Personal
 ---
-#### Totolist
+#### Todolist
 - 기간: 2019. 05 ~ 2019. 06
 - 개발 언어: Javascript, Python
 - 주요 라이브러리: [Vue.js](https://github.com/vuejs/vue), [BootstrapVue](https://github.com/bootstrap-vue/bootstrap-vue), [Flask](https://github.com/pallets/flask/), [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy/)
