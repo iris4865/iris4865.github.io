@@ -51,7 +51,7 @@ KRX거래소에서 만든 [PC COMS](http://regulation.krx.co.kr/contents/RGL/06/
 도쿄증권거래소에서 퀀트 트레이딩 알고리즘 개발, 운영 및 유지보수  
 새로운 트레이딩 알고리즘을 만들거나 기존에 만든 트레이딩 알고리즘을 개선하고 수익성을 높이기 위해 여러 서비스를 추가개발  
 - Language: Scala, Python
-- 추가 서비스
+- 기타 서비스
   - 매매 결과와 DB의 불일치 확인 서비스(Scala)
   - 거래에 사용하기 위한 데이터를 수집하는 Crawer서비스(Scala)
   - 날짜와 IP를 지정하면 일자별로 나눠 분산 백테스트 및 결과 데이터를 Private Repo와 Slack으로 전송(Python)  
